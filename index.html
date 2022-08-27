@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- This is a comment in HTML-->
 
 <head>
     <meta charset="UTF-8">
@@ -7,18 +8,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pierwsza strona internetowa - Michał Tracichleb</title>
     <style>
+        /* This is a comment in CSS */
         p {
             color: darkorange;
         }
+
+        h1 {
+            color: green;
+            text-decoration: underline;
+        }
+
         h4 {
             color: blue;
+        }
+
+        /* This is for class="..."*/
+        .course-description {
+            color: brown;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .left {
+            text-align: left;
+        }
+
+        .main {
+            text-align: center;
+        }
+
+        .first {
+            width: 100px;
+            background-color: yellow;
+
+        }
+
+        .second {
+            height: 200px;
+            background-color: pink;
+
+        }
+
+        .third {
+            margin: 1em;
+            background-color: aqua;
+        }
+
+        .fourth {
+            font-size: 2em;
+            background-color: greenyellow;
+        }
+
+        /*This is for id="..."*/
+
+        #site-description {
+            color: aqua;
+            text-transform: uppercase;
         }
     </style>
 </head>
 
-<body>
-    <h1>Witajcie na mojej stronie!</h1>
-    <p>
+<body class="main">
+    <h1>Witajcie na mojej pierwszej stronie!</h1>
+    <p id="site-description">
         Jest mo mój pierwszy projekt w HTML i CSS na podstawie kursu z <button><a
                 href="https://www.udacity.com">Udacity</a>.</button>
     </p>
@@ -26,17 +82,17 @@
         Zapinam pasy i ruszam w podróż po świecie kodowania, trzymajcie kciuki! :)
     </p>
     <h2>Co poznam podczas kursu?</h2>
-    <p>
+    <p class="course-description center">
         Podczas kursu poznam kilka interesujących mnie języków oraz kilka przydatnych narzędzi.
     <h4><b>Języki które poznam:</b></h4>
-    <ul>
+    <ul class="left">
         <li>HTML</li>
         <li>CSS</li>
         <li>C#</li>
         <li>SQL</li>
     </ul>
     <h4><strong>Narzędzia przydatne podczas rozwoju kariery:</strong></h4>
-    <ul>
+    <ul class="left">
         <li>GitHub</li>
         <li>LinkedIn</li>
         <li><em>Może coś jeszcze, póki co nie wiem</em> :D</li>
